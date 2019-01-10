@@ -170,24 +170,24 @@ a,.m-sch .txt
 
 body
 {
-	background: #1b1b1b url(../assets/lofter/body_bk.jpg) repeat fixed 0 0
+	background: #1b1b1b url(https://wx1.sinaimg.cn/mw1024/5c5478eagy1fz1qo3gk2mj20oi0hqaet.jpg) repeat fixed 0 0
 }
 
 .g-hd0
 {
-	background: url(../assets/lofter/head_bk1.png) repeat-x scroll 0 0;
-	_background-image: url(../assets/lofter/head_bk2.png)
+	background: url(https://media.githubusercontent.com/media/JSTCG/JSTCG.github.io/master/assets/lofter/head_bk1.png) repeat-x scroll 0 0;
+	_background-image: url(https://media.githubusercontent.com/media/JSTCG/JSTCG.github.io/master/assets/lofter/head_bk2.png)
 }
 
 .m-nav,.m-pager-idx
 {
-	background: url(http://img.ph.126.net/RJfBES3tzHbiHXstr8TPjQ==/6597088458353676646.jpg) repeat-x scroll left bottom
+	background: url(https://media.githubusercontent.com/media/JSTCG/JSTCG.github.io/master/assets/lofter/line.jpg) repeat-x scroll left bottom
 }
 
 .info .date,.info .cmt,.info .hot
 {
-	background: url(http://img.ph.126.net/ft4wuNko5O2ZtnloLZeP2Q==/6597088458353676647.png) no-repeat scroll 0 0;
-	_background-image: url(http://img.ph.126.net/ajefNwxz7JZ19cHcxvXj2g==/6597088458353676648.png)
+	background: url(https://media.githubusercontent.com/media/JSTCG/JSTCG.github.io/master/assets/lofter/postui1.png) no-repeat scroll 0 0;
+	_background-image: url(https://media.githubusercontent.com/media/JSTCG/JSTCG.github.io/master/assets/lofter/postui2.png)
 }
 
 body
@@ -588,8 +588,8 @@ body
 {
 	height: 23px;
 	display: inline-block;
-	background: url(http://img.ph.126.net/hU5xqLnDAa1MkDQzcfJBjg==/6597088458353676649.png) no-repeat left top;
-	_background-image: url(http://img.ph.126.net/vrAOagmvNdMtiN52Y_N4-A==/6597088458353676650.png)
+	background: url(https://media.githubusercontent.com/media/JSTCG/JSTCG.github.io/master/assets/lofter/otherui1.png) no-repeat left top;
+	_background-image: url(https://media.githubusercontent.com/media/JSTCG/JSTCG.github.io/master/assets/lofter/otherui2.png)
 }
 
 .cc_1
