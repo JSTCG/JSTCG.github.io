@@ -1,0 +1,53 @@
+# Basic
+title: Sunlery
+subtitle: 写下来，才不会忘记。
+#subtitle: It has not been the time yet to give up as long as you still feel it is not the end.
+#welcome_message: 最新作品<a href="http://tk.v5cg.com/tools/1398.html" target="_blank">智能道路系统</a>已经发布,欢迎前往了解。
+#description: 嗨，我是Sunlery (@Sunlery·Lee)，一名来自中国的开发者。
+description: 自学：C、C#、C++、Qt、Maxscript、Python、Mel、Java、ExtendScript、物理学、遗传学、生物学，制成一剂返老还童的良药杀死年轻的自己取而代之。
+creator: <a href="http://lisun.win">@sunlery</a>
+
+url: "http://lisun.win"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: blue
+
+blog_button:
+    title: Blog
+    description: Visit blog
+
+nav:
+    - {title: 简历, description: 我的简历, url: 'http://lisun.win'}
+    - {title: 发现, description: 有趣的, url: 'http://cv.lisun.win'}
+    - {title: 订阅, description: 邮件订阅本站, url: 'http://lisun.win'}
+    - {title: 归档, description: 文章归档, url: 'http://lisun.win/archive'}
+    - {title: 标签, description: 标签云, url: 'http://lisun.win/tags'}
+    #- {title: Projects, description: My Projects, url: 'http://project.lisun.win'}
+    #- {title: Another Button, description: A button, url: 'http://example.win'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    #disqus: onevcat
+    # duoshuo:
+# Social
+social:
+    weibo: lisun1988
+    github: Sunlery
+    twitter: Sunlery
+    gplus: 101947824392107020347
+    mail: Sunlery@qq.com
+
+# Google Analytics
+#ga:
+#    id: UA-25719337-1
+#    host: lisun.win
