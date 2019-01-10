@@ -24,7 +24,7 @@ blog_button:
 nav:
     - {title: 简历, description: 我的简历, url: 'http://lisun.win'}
     - {title: 发现, description: 有趣的, url: 'http://cv.lisun.win'}
-    - {title: 订阅, description: 邮件订阅本站, url: 'http://lisun.win/feed'}
+    - {title: 订阅, description: 邮件订阅本站, url: 'http://lisun.win/feed.xml'}
     - {title: 归档, description: 文章归档, url: 'http://lisun.win/archive'}
     - {title: 标签, description: 标签云, url: 'http://lisun.win/tags'}
     #- {title: Projects, description: My Projects, url: 'http://project.lisun.win'}
