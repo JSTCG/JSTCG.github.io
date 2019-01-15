@@ -11,9 +11,6 @@ url: "http://lisun.win"
 
 permalink: /:year/:month/:title/
 
-#404
-permalink: /404.html
-
 # Format
 highlighter: rouge
 
