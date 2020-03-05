@@ -5,7 +5,7 @@ cover:  assets/images/welcome.jpg
 navigation: True
 title: 单向数据流动的函数式 View Controller
 date: 2017-07-27 10:00:00
-tags: [Getting started]
+tags: Get
 class: post-template
 subclass: 'post tag-getting-started'
 author: onevcat
