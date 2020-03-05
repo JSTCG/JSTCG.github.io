@@ -10,10 +10,10 @@ baseurl: /
 # Website info
 title: Sunlery
 description: 自学：C、C#、C++、Qt、Maxscript、Python、Mel、Java、ExtendScript、物理学、遗传学、生物学，制成一剂返老还童的良药杀死年轻的自己取而代之。
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+cover: /assets/images/blog-cover.jpg
+logo: /assets/images/blog-icon.png
+logo_dark: /assets/images/favicon.png
+favicon: /assets/images/favicon.png
 production_url: https://github.com/jstcg/jstcg.github.io
 source_url: https://github.com/jstcg/jstcg.github.io
 CNAME: #lisun.win
