@@ -9,13 +9,13 @@ baseurl: #sub directory path (such as: "/jasper2/")
 
 # Website info
 title: Sunlery
-description: 自学：C、C#、C++、Qt、Maxscript、Python、Mel、Java、ExtendScript、物理学、遗传学、生物学，制成一剂返老还童的良药杀死年轻的自己取而代之。
+description: C、C#、C++、Maxscript、Java、NodeJs、VueJs、Python、Mel、Lua、ExtendScript
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://github.com/jstcg/jstcg.github.io
-source_url: https://github.com/jstcg/jstcg.github.io
+production_url: https://github.com/sunlery
+source_url: https://github.com/sunlery
 CNAME: #your domin
 
 # Social info
@@ -23,12 +23,12 @@ navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+twitter: sunlery # replace by your username
+facebook: sunlery # replace by your username
 
 # Disqus
 disqus: False
-disqus_shortname: jekyller # replace with your disqus username
+disqus_shortname: sunlery # replace with your disqus username
 
 # Google Analytics
 google_analytics: UA-69281367-1 # replace with your GA tracking identifier
