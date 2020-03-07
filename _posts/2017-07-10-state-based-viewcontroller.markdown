@@ -15,15 +15,12 @@ author: ghost
 对于采用 MVC 架构的项目来说，其实最大的挑战在于维护 Controller。
 而想要有良好维护的 Controller，最大的挑战又在于保持良好的测试覆盖。
 
-因为往往 View Controller 中会包含很多状态，而且会有不少异步操作和用户触发的事件，所以测试 Controller 从来都不是一件简单的事情。
-
 > 这一点对于一些类似的其他架构也是一样的。比如 MVVM 或者 VIPER，广义上它们其实都是 MVC，
 只不过使用 View Model 或者 Presenter 来做 Controller 而已。它们对应的控制器的职责依然是协调 Model 和 View。
 
 
 ## 传统 MVC 实现
 
-我们用一个经典的 ToDo 应用作为示例。这个项目可以从网络加载待办事项，我们通过输入文本进行添加，或者点击对应条目进行删除：
 
 <center>
 <video width="272" height="480" controls>
