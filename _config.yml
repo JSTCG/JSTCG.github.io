@@ -29,7 +29,7 @@ facebook: Sunlery # replace by your username
 weibo: Lisun1988
 github: Sunlery
 email: Sunlery@qq.com
-feed: _layouts/feedxml
+feed: /_layouts/feedxml
 # Disqus
 disqus: False
 disqus_shortname: sunlery # replace with your disqus username
