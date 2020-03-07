@@ -16,11 +16,17 @@
             {% if site.weibo %}
                 <a class="social-link social-link-fb" href="https://weibo.com/{{ site.weibo }}" target="_blank" rel="noopener">{% include weibo.html %}</a>
             {% endif %}
+            {% if site.github %}
+                <a class="social-link social-link-fb" href="https://github.com/{{ site.github }}" target="_blank" rel="noopener">{% include github.html %}</a>
+            {% endif %}
             {% if site.facebook %}
                 <a class="social-link social-link-fb" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
             {% endif %}
             {% if site.twitter %}
                 <a class="social-link social-link-tw" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
+            {% endif %}
+            {% if site.emai %}
+                <a class="social-link social-link-fb" href="mailto:{{ site.emai }}" rel="noopener">{% include emai.html %}</a>
             {% endif %}
         </div>
         {% if site.subscribers %}

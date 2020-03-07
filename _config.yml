@@ -24,9 +24,10 @@ navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: sunlery # replace by your username
-facebook: sunlery # replace by your username
-weibo: lisun1988
+twitter: Sunlery # replace by your username
+facebook: Sunlery # replace by your username
+weibo: Lisun1988
+github: Sunlery
 
 # Disqus
 disqus: False
