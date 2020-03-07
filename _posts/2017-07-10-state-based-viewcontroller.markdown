@@ -11,9 +11,6 @@ subclass: 'post tag-getting-started'
 author: onevcat
 ---
 
-I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.
-
-Five score years ago, a great American, in whose symbolic shadow we stand today, signed the Emancipation Proclamation. This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of their captivity.
 
 View Controller 向来是 MVC (Model-View-View Controller) 中最让人头疼的一环，MVC 架构本身并不复杂，但开发者很容易将大量代码扔到用于协调 View 和 Model 的 Controller 中。
 
