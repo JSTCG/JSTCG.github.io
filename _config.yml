@@ -50,6 +50,8 @@ permalink: /:title
 plugins_dir: [_plugins]
 plugins: [jekyll-paginate, jekyll-feed]
 
+lang: Xml
+
 feed:
   path: feed.xml
 
