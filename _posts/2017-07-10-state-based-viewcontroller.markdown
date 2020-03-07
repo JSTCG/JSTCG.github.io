@@ -4,14 +4,14 @@ current: post
 cover:  assets/images/sky.jpg
 navigation: True
 title: 单向数据流动的函数式 View Controller
-date: 2020-03-07 10:00:00
+date: 2017-07-28 10:00:00
 tags: tag-getting-started
 class: post-template
 subclass: 'post tag-getting-started'
 author: onevcat
 ---
 
-View Controller 向来是 MVC (Model-View-View Controller) 中最让人头疼的一环，MVC 架构本身并不复杂，但开发者很容易将大量代码扔到用于协调 View 和 Model 的 Controller 中。
+<p>View Controller 向来是 MVC (Model-View-View Controller) 中最让人头疼的一环，MVC 架构本身并不复杂，但开发者很容易将大量代码扔到用于协调 View 和 Model 的 Controller 中。<p>
 
 你不能说这是一种错误，因为 View Controller 所承担的本来就是胶水代码和业务逻辑的部分。但是，持续这样做必定将导致 Model View Controller 变成 Massive View Controller，代码也就一天天烂下去，直到没人敢碰。
 
