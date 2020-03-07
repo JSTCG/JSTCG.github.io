@@ -8,7 +8,7 @@ date: 2017-07-28 10:00:00
 tags: tag-getting-started
 class: post-template
 subclass: 'post tag-getting-started'
-author: onevcat
+author: ghost
 ---
 
 View Controller 向来是 MVC (Model-View-View Controller) 中最让人头疼的一环，MVC 架构本身并不复杂，但开发者很容易将大量代码扔到用于协调 View 和 Model 的 Controller 中。
