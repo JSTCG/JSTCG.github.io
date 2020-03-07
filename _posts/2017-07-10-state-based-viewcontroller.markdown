@@ -11,19 +11,11 @@ subclass: 'post tag-getting-started'
 author: ghost
 ---
 
-View Controller 向来是 MVC (Model-View-View Controller) 中最让人头疼的一环，MVC 架构本身并不复杂，但开发者很容易将大量代码扔到用于协调 View 和 Model 的 Controller 中。
-
-你不能说这是一种错误，因为 View Controller 所承担的本来就是胶水代码和业务逻辑的部分。但是，持续这样做必定将导致 Model View Controller 变成 Massive View Controller，代码也就一天天烂下去，直到没人敢碰。
 
 对于采用 MVC 架构的项目来说，其实最大的挑战在于维护 Controller。而想要有良好维护的 Controller，最大的挑战又在于保持良好的测试覆盖。因为往往 View Controller 中会包含很多状态，而且会有不少异步操作和用户触发的事件，所以测试 Controller 从来都不是一件简单的事情。
 
 > 这一点对于一些类似的其他架构也是一样的。比如 MVVM 或者 VIPER，广义上它们其实都是 MVC，只不过使用 View Model 或者 Presenter 来做 Controller 而已。它们对应的控制器的职责依然是协调 Model 和 View。
 
-在这篇文章里，我会先实现一个很常见的 MVC 架构，然后对状态和状态改变的部分进行抽象及重构，最终得到一个纯函数式的易于测试的 View Controller 类。希望通过这个例子，能够给你在日常维护 View Controller 的工作中带来一些启示或者帮助。
-
-如果你对 React 和 Redux 有所了解的话，文中的一些方法可能你会很熟悉。不过即使你不了解它们，也并不会妨碍你理解本文。我不会去细究概念上的东西，而会从一个大家都所熟知的例子开始进行介绍，所以完全不用担心。你可能需要对 Swift 有一些了解，本文会涉及一些基本的值类型和引用类型的区别，如果你对此不是很明白的话，可以参看一些其他资料，比如我以前写的[这篇文章](http://swifter.tips/value-reference/)。
-
-整个示例项目我放在了 [GitHub](https://github.com/onevcat/ToDoDemo) 上，你可以在各个分支中找到对应的项目源码。
 
 ## 传统 MVC 实现
 
