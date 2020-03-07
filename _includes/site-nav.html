@@ -25,6 +25,9 @@
             {% if site.twitter %}
                 <a class="social-link social-link-tw" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
             {% endif %}
+            {% if site.feed %}
+            <a class="social-link social-link-tw" href="http://lisunwin/{{ site.feed }}" target="_blank" rel="noopener">{% include feed.html %}</a>
+            {% endif %}
             {% if site.email %}
                 <a class="social-link social-link-fb" href="mailto:{{ site.email }}" rel="noopener">{% include email.html %}</a>
             {% endif %}
