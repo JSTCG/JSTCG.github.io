@@ -9,7 +9,6 @@ tags: [Getting started]
 class: post-template
 subclass: 'post tag-getting-started'
 author: Jeff
-id: 001
 ---
 
 As 2018 ended, I kicked off 2019 in a manner that many try so hard to tackle, but never really stick with.  I made the commitment to myself to try and get myself out of my comfort zone more often, as to force myself to grow by being more comfortable with being uncomfortable.
