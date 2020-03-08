@@ -15,8 +15,8 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://github.com/sunlery
-source_url: https://github.com/sunlery
+production_url: https://github.com/JSTCG
+source_url: https://github.com/JSTCG
 CNAME: #your domin
 
 # Social info
@@ -75,13 +75,13 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: sunlery
-repo: sunlery.github.io
+username: JSTCG
+repo: JSTCG.github.io
 branch: master
-relative_source: sunlery.github.io
-destination: sunlery.github.io
+relative_source: JSTCG.github.io
+destination: JSTCG.github.io
 production_url:  http://lisun.win
-source_url:  https://github.com/sunlery/sunlery.github.io/
+source_url:  http://github.com/JSTCG/JSTCG.github.io/
 
 exclude:
   - assets/css
