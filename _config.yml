@@ -31,7 +31,7 @@ github: Sunlery
 email: Sunlery@qq.com
 
 # Disqus
-disqus: False
+disqus: True
 disqus_shortname: jekyller # replace with your disqus username
 
 # Google Analytics
