@@ -6,9 +6,8 @@ layout: null
   <channel>
     <title>{{ site.title | xml_escape }} - Articles</title>
     <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
+    <link>{{ site.url }}</link>
+    {% for post in site.posts limit:30 %}
       {% unless post.link %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
