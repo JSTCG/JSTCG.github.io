@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prism 代码语法高亮</title>
+    <link href="https://cdn.bootcss.com/prism/1.15.0/themes/prism.css" rel="stylesheet">
+    <!-- <link href="https://cdn.bootcss.com/prism/1.15.0/plugins/line-numbers/prism-line-numbers.css" rel="stylesheet"> -->
+    <!-- <link href="https://cdn.bootcss.com/prism/1.15.0/themes/prism-okaidia.css" rel="stylesheet"> -->
+    <style>
+        #box {
+            width: 60%;
+            margin-left: 35px;
+        }
+    </style>
+    <script src="https://cdn.bootcss.com/prism/1.15.0/prism.js"></script>
+    <script src="https://cdn.bootcss.com/prism/1.15.0/components/prism-csharp.js"></script>
+    <!-- <script src="https://cdn.bootcss.com/prism/1.15.0/components/prism-java.js"></script>
+    <script src="https://cdn.bootcss.com/prism/1.15.0/plugins/line-numbers/prism-line-numbers.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+        var text =
+            '<link href="https://cdn.bootcss.com/prism/1.15.0/themes/prism.css" rel="stylesheet">\n' + '<p>js操作html数据绑定</p>';
+        var text = $('#code-1').text(text)
+        console.log($('#code-1').text());
+    </script> -->
+</head>
+
+<body>
+    <div id="box">
+        <h3>css显示:</h3>
+        <pre class="line-numbers"><code class="language-css">p { color: red }</code></pre>
+        <h3>js显示:</h3>
+        <pre class="line-numbers"><code class="language-js">require("lib/ace"); ##引入
+editor.setTheme("ace/theme/solarized_dark");##设置模theme-solarized_dark.js模板文件
+editor.getSession().setMode("ace/mode/javascript"); ##设置程序语言模式
+editor.setValue("the new text here");##设置内容
+editor.getValue(); ##取值</code></pre>
+        <h3>java显示:</h3>
+        <pre class="line-numbers"><code class="language-java">String res=new ShowApiRequest("http://route.showapi.com/213-4","my_appI"my_appSecret").addTextPara("topid","5").post();
+System.out.println(res);
+        </code></pre>
+        <h3>html显示:</h3>
+        <pre class="line-numbers"><code id="code-1" class="language-html"></code></pre>
+        <pre class="line-numbers"><code id="code-2" class="language-html">&lt;p>data-foo&lt;/p&gt;
+&lt;p>数据绑定&lt;/p></code></pre>
+    </div>
+    <h3>C#显示:</h3>
+    <pre class="line-numbers"><code class="language-csharp">
+using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+
+namespace DirectoryTreeHost
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new DirectoryTreeTest());
+        }
+    }
+}
+    </code></pre>
+
+
+</body>
+
+</html>
