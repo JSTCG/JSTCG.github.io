@@ -2,7 +2,7 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 10 # it will paginate after this number
-language: 'en-uk'
+language: 'zh-cn'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)  /jasper2/
@@ -12,9 +12,9 @@ baseurl: /
 title: Sunlery
 description: Write the code. Change the world.
 cover: assets/images/blog-cover.jpg
-logo: assets/images/Plogo.png
+logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+favicon: assets/images/favicon.ico
 production_url: https://jekyller.github.io/jasper2/
 source_url: https://github.com/jekyller/jasper2/
 CNAME: #add cname for website to be created
@@ -31,7 +31,7 @@ github: Sunlery
 email: Sunlery@qq.com
 
 # Disqus
-disqus: True
+disqus: False
 disqus_shortname: jekyller # replace with your disqus username
 
 # Google Analytics
@@ -72,13 +72,13 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: jekyller
+username: JSTCG
 repo: jasper2
 branch: master
 relative_source: ../jasper2/
 destination: ../jasper2-pages/
-production_url:  https://jekyller.github.io/jasper2/
-source_url:  https://github.com/jekyller/jasper2/
+production_url:  https://JSTCG.github.io/jasper2/
+source_url:  https://github.com/JSTCG/jasper2/
 
 exclude:
   - assets/css
